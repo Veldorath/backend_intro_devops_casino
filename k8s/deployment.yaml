@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: casino-backend
-          image: 877762162499.dkr.ecr.us-east-1.amazonaws.com/casino-backend:latest
+          image: <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/casino-backend:latest
           ports:
             - containerPort: 3000
           env:
